@@ -1,0 +1,196 @@
+
+img{
+    display: block;
+    width:  100%;
+    height: 70%;
+    border-radius: 1px;
+}
+.foto{
+    height: 300px;
+    margin: auto;
+    margin: 10px;
+   
+}
+.first{ 
+    margin-left: 100px;
+}
+.flower{
+   
+    height: 130px;
+    width: 100px;
+    margin-left: -100PX;
+
+}
+header {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(225, 255, 200);
+    height: 70px;
+border-radius: 5PX;
+ 
+}
+.uptext{
+    margin-top: -100px;
+    margin-left: -20px;
+    color: rgb(41, 124, 9);
+}
+/*.chartImage{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}*/
+
+.options{
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 30px;
+    background-color: rgb(180, 2250, 150);
+    display: flex;
+    
+}
+
+.block{
+    padding: 3px;
+margin-inline: 100px;    
+margin-left: 80px;
+font-size: large;
+}
+ 
+
+.carousel-slide{
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+.carousel-item{
+    height: 500px;
+}
+/* Настройка изображений внутри слайда */
+.carousel-item img {
+    object-fit: cover; /* Подгоняем изображение под размер контейнера, сохраняя пропорции */
+    height: 100%; /* Изображение занимает всю высоту контейнера */
+    width: 100%; /* Изображение занимает всю ширину контейнера */
+}
+#registerButton {
+    background-color: #0077ff; 
+    color: white; 
+}
+/* Центрирование кнопок переключения слайдов по вертикали */
+/*.carousel-control-prev, .carousel-control-next {
+    top: 50%; /* Центрируем по вертикали */
+   /* transform: translateY(-50%); /* Смещаем на 50% для точного центрирования */
+
+.chart{
+    height: 350px;
+    border: 5px solid rgb(152, 252, 190);
+    border-radius: 7px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+h3{
+    text-align: center;
+    color: #00f829;
+}
+.topCharts{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+ 
+
+  /* Стиль для всіх елементів у випадаючому меню */
+  .dropdown-menu .dropdown-item {
+    color: green; /* Змінюємо колір тексту на зелений */
+    text-decoration: none; /* Прибираємо підкреслення */
+  }
+
+  /* Стиль при наведенні на елемент */
+  .dropdown-menu .dropdown-item:hover {
+    color: #4CAF50; /* Змінюємо колір на більш яскравий зелений при наведенні */
+    text-decoration: none; /* Підтверджуємо відсутність підкреслення */
+  }
+.card{
+    width: 250px;
+    height: 400px;
+    
+   margin-top:  100px;
+    border-radius: 25px;
+    text-align: center;
+    margin: auto;
+    padding: 1px;
+}
+ 
+.button{
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+.opt{
+    margin-left: 150px;
+}
+
+
+/*.accordion{
+    height: 100px;
+    margin-right: 700px;
+}*/
+
+
+
+.table-layout .product-buttons-wrap {
+	position: static;
+	visibility: visible;
+	opacity: 1;
+	transform: scaleY(1);
+}
+.newspaper{
+    margin-top: 40px;
+    margin-left: 180px;
+    margin-right: 185px;
+    height: 200px;
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 1px solid lightblue;
+    column-width: 100px;
+}
+.shadow{
+    margin-left: 180px;
+    margin-right: 140px;
+    margin-top: 25px;
+    width: 1210px;
+    height: 200px;
+    padding: 50px;
+    background-color: rgb(162, 255, 173);
+    box-shadow: 20px 20px rgb(2, 213, 255);
+}
+footer{
+    text-align: left;
+    color: rgb(4, 221, 58);
+    margin-top: 50px;
+}
+/* Медіа-запит для пів екрана (наприклад, близько 800px) 
+@media screen and (max-width: 800px) {
+  .card {
+    width: 40%;  /* Ширина збільшується, щоб наповнити пів екрану 
+    height: auto;
+  }
+
+  .topCharts {
+    display: block;  /* Відображаємо елементи один під одним для адаптивності 
+  }
+
+  .chart {
+    width: 100%;
+    height: auto;
+  }
+
+  img {
+    height: auto;  /* Автоматична висота для зображень 
+  }
+
+  footer {
+    text-align: center;  /* Центруємо текст у футері 
+  }
+
